@@ -11,7 +11,7 @@ before_install:
     - npm install sloc
 before_script:
 script:
-    - xctool test -project LaunchBox.xcodeproj/ -scheme LaunchBox -sdk iphonesimulator -configuration Debug -reporter json-compilation-database:compile_commands.json -reporter pretty GCC_GENERATE_TEST_COVERAGE_FILES = YES GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES
+    - xctool test -project LaunchBox.xcodeproj/ -scheme LaunchBox -sdk iphonesimulator -configuration Debug -reporter json-compilation-database:compile_commands.json -reporter pretty GCC_GENERATE_TEST_COVERAGE_FILES=YES GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES
 after_success:
     - oclint-json-compilation-database -enable-clang-static-analyzer -- -max-priority-2=20 -max-priority-3=100 -rc LONG_LINE=150 -rc=CYCLOMATIC_COMPLEXITY=1 -report-type json -o .oclint.json
     - sloc --format json --details LaunchBox > .sloc.json
