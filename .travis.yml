@@ -8,7 +8,7 @@ before_install:
     - rm -rf /usr/local/lib/oclint*
     - brew install caskroom/cask/brew-cask
     - brew cask install oclint
-    - npm install sloc
+    - sudo npm install -g sloc
 before_script:
 script:
     - xctool test -project LaunchBox.xcodeproj/ -scheme LaunchBox -sdk iphonesimulator -configuration Debug -reporter json-compilation-database:compile_commands.json -reporter pretty GCC_GENERATE_TEST_COVERAGE_FILES=YES GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES
