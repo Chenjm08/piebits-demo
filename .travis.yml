@@ -16,4 +16,4 @@ after_success:
     - oclint-json-compilation-database -enable-clang-static-analyzer -- -max-priority-2=20 -max-priority-3=100 -rc LONG_LINE=150 -rc=CYCLOMATIC_COMPLEXITY=1 -report-type json -o .oclint.json
     - sloc --format json --details LaunchBox > .sloc.json
     - slather coverage -p LaunchBox.xcodeproj
-    - ls && cat .sloc.json .piebits.json .oclint.json
+    - ls -al && cat .sloc.json .piebits.json .oclint.json
