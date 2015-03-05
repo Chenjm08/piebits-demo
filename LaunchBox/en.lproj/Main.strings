@@ -1,0 +1,15 @@
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "Ap0-aN-feu"; */
+"Ap0-aN-feu.text" = "Label";
+
+/* Class = "IBUIButton"; normalTitle = "Screen 1"; ObjectID = "Ev1-G6-iL0"; */
+"Ev1-G6-iL0.normalTitle" = "Screen 1";
+
+/* Class = "IBUIButton"; normalTitle = "Screen 3"; ObjectID = "Luf-wC-Qnx"; */
+"Luf-wC-Qnx.normalTitle" = "Screen 3";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "cs7-q2-aJi"; */
+"cs7-q2-aJi.normalTitle" = "Button";
+
+/* Class = "IBUIButton"; normalTitle = "Screen 2"; ObjectID = "j2B-19-50h"; */
+"j2B-19-50h.normalTitle" = "Screen 2";
