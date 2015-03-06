@@ -50,4 +50,5 @@
     XCTAssertEqualObjects([screen1ViewController getStringForAlertView:[NSDate date]], [dateFormatter stringFromDate:[NSDate date]]);
 }
 
+
 @end
