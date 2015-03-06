@@ -1,4 +1,6 @@
 language: objective-c
+rvm:
+    - 2.2.0
 env:
     global:
         - PIEBITS_TOKEN="TEST"
