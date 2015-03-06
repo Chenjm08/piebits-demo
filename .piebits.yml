@@ -1,0 +1,13 @@
+reports:
+  -
+    tool_name: oclint
+    category: analysis
+    report_filename: .oclint.json
+  -
+    tool_name: sloc
+    category: metrics
+    report_filename: .sloc.json
+  -
+    tool_name: slather
+    category: coverage
+    report_filename: .slather.json
