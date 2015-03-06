@@ -17,3 +17,4 @@ after_success:
     - sloc --format json --details LaunchBox > .sloc.json
     - slather coverage -p LaunchBox.xcodeproj
     - ls -al && cat .sloc.json .piebits.json .oclint.json
+    - piebits
