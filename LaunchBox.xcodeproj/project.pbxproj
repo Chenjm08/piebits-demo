@@ -18,6 +18,9 @@
 		1718D6EE1AA8B2A300D7836C /* Screen2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1718D6ED1AA8B2A300D7836C /* Screen2ViewController.m */; };
 		1718D6F11AA8B2B200D7836C /* Screen3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1718D6F01AA8B2B200D7836C /* Screen3ViewController.m */; };
 		1718D6F31AA8BD3900D7836C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1718D6F21AA8BD3900D7836C /* InfoPlist.strings */; };
+		1718D6F91AA9287400D7836C /* Screen1ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1718D6F81AA9287400D7836C /* Screen1ViewControllerTests.m */; };
+		1718D6FB1AA9287D00D7836C /* Screen2ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1718D6FA1AA9287D00D7836C /* Screen2ViewControllerTests.m */; };
+		1718D6FD1AA9288900D7836C /* Screen3ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1718D6FC1AA9288900D7836C /* Screen3ViewControllerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		1718D6F01AA8B2B200D7836C /* Screen3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Screen3ViewController.m; path = Controller/Screen3ViewController.m; sourceTree = "<group>"; };
 		1718D6F21AA8BD3900D7836C /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		1718D6F51AA8BF4700D7836C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		1718D6F81AA9287400D7836C /* Screen1ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Screen1ViewControllerTests.m; sourceTree = "<group>"; };
+		1718D6FA1AA9287D00D7836C /* Screen2ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Screen2ViewControllerTests.m; sourceTree = "<group>"; };
+		1718D6FC1AA9288900D7836C /* Screen3ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Screen3ViewControllerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,9 @@
 			children = (
 				1718D6DE1AA8B14400D7836C /* LaunchBoxTests.m */,
 				1718D6DC1AA8B14400D7836C /* Supporting Files */,
+				1718D6F81AA9287400D7836C /* Screen1ViewControllerTests.m */,
+				1718D6FA1AA9287D00D7836C /* Screen2ViewControllerTests.m */,
+				1718D6FC1AA9288900D7836C /* Screen3ViewControllerTests.m */,
 			);
 			path = LaunchBoxTests;
 			sourceTree = "<group>";
@@ -260,6 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1718D6FD1AA9288900D7836C /* Screen3ViewControllerTests.m in Sources */,
+				1718D6FB1AA9287D00D7836C /* Screen2ViewControllerTests.m in Sources */,
+				1718D6F91AA9287400D7836C /* Screen1ViewControllerTests.m in Sources */,
 				1718D6DF1AA8B14400D7836C /* LaunchBoxTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +458,7 @@
 				1718D6E41AA8B14400D7836C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1718D6E51AA8B14400D7836C /* Build configuration list for PBXNativeTarget "LaunchBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +467,7 @@
 				1718D6E71AA8B14400D7836C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
