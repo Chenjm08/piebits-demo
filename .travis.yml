@@ -3,7 +3,8 @@ env:
     global:
         - PIEBITS_TOKEN="TEST"
 before_install:
-    - bundle install
+    - gem install ./slather-1.5.6.gem
+    - gem install ./piebits-0.1.0.gem
     - rm -rf /usr/local/bin/oclint*
     - rm -rf /usr/local/lib/oclint*
     - brew install caskroom/cask/brew-cask
