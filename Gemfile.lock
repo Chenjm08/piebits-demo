@@ -1,0 +1,49 @@
+GIT
+  remote: git@github.com:bignerdranch/piebits-client.git
+  revision: 396a3b3aee612f8568187dadda66001e95d0ce44
+  specs:
+    piebits (0.1.0)
+      faraday (~> 0.9.1)
+
+GIT
+  remote: git@github.com:evils/piebits-cc.git
+  revision: 128a676f24593166acf3d4926b7058007f26e30c
+  specs:
+    slather (1.5.6)
+      clamp (~> 0.6)
+      nokogiri (~> 1.6.3)
+      xcodeproj (~> 0.20.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.2.0)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    clamp (0.6.4)
+    colored (1.2)
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
+    i18n (0.7.0)
+    json (1.8.2)
+    mini_portile (0.6.2)
+    minitest (5.5.1)
+    multipart-post (2.0.0)
+    nokogiri (1.6.6.2)
+      mini_portile (~> 0.6.0)
+    thread_safe (0.3.4)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    xcodeproj (0.20.2)
+      activesupport (>= 3)
+      colored (~> 1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  piebits!
+  slather!
