@@ -3,7 +3,7 @@ rvm:
     - 2.2.0
 env:
     global:
-        - PIEBITS_TOKEN="TEST"
+        - PIEBITS_API_TOKEN="3b9156356c0b89f285b97b5586f2353c5f7bc559e0357f178d734d36b4d4cb31"
 before_install:
     - gem install slather-1.5.6.gem
     - gem install piebits-0.1.0.gem
